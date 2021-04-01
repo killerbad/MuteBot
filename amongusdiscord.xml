@@ -8,7 +8,7 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/denverquane/amongusdiscord/</Support>
-  <Project>https://github.com/denverquane/amongusdiscord</Project>
+  <Project>https://github.com/killerbad/MuteBot</Project>
   <Overview>Discord Bot to harness Among Us game data, and automatically mute/unmute players during the course of the game!&#xD;
 &#xD;
 Works in conjunction with amonguscapture&#xD;
@@ -21,7 +21,7 @@ unRAID template by Argash</Overview>
   <Category>GameServers: Tools: Other: Network:Voip Network:Messenger</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://github.com/denverquane/amongusdiscord/raw/master/assets/botProfilePicture.jpg</Icon>
+  <Icon>https://github.com/killerbad/MuteBot/raw/master/assets/botProfilePicture.jpg</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>

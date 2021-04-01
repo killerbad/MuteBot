@@ -2,13 +2,13 @@
     <a href="https://automute.us/#/" alt = "Website link"><img src="assets/AutoMuteUsBanner_cropped.png" width="800"></a>
 </p>
 <p align="center">
-    <a href="https://github.com/denverquane/amongusdiscord/actions?query=build" alt="Build Status">
-        <img src="https://github.com/denverquane/amongusdiscord/workflows/build/badge.svg" />
+    <a href="https://github.com/killerbad/MuteBot/actions?query=build" alt="Build Status">
+        <img src="https://github.com/killerbad/MuteBot/workflows/build/badge.svg" />
     </a>
     <a href="https://github.com/denverquane/automuteus/releases/latest">
     <img alt="GitHub release" src="https://img.shields.io/github/v/release/denverquane/automuteus" >
     </a>
-    <a href="https://github.com/denverquane/amongusdiscord/graphs/contributors" alt="Contributors">
+    <a href="https://github.com/killerbad/MuteBot/graphs/contributors" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/denverquane/amongusdiscord" />
     </a>
     <a href="https://discord.gg/ZkqZSWF" alt="Discord Link">
