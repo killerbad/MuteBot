@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"github.com/automuteus/utils/pkg/task"
 	"github.com/bsm/redislock"
-	"github.com/denverquane/amongusdiscord/metrics"
+	"github.com/killerbad/MuteBot/metrics"
 	"github.com/go-redis/redis/v8"
 	"io/ioutil"
 	"log"

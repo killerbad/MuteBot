@@ -7,15 +7,15 @@ import (
 	"fmt"
 	"github.com/automuteus/utils/pkg/game"
 	"github.com/automuteus/utils/pkg/task"
-	"github.com/denverquane/amongusdiscord/amongus"
-	"github.com/denverquane/amongusdiscord/metrics"
+	"github.com/killerbad/MuteBot/amongus"
+	"github.com/killerbad/MuteBot/metrics"
 	"github.com/go-redis/redis/v8"
 	"log"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/denverquane/amongusdiscord/storage"
+	"github.com/killerbad/MuteBot/storage"
 )
 
 type EndGameMessage bool

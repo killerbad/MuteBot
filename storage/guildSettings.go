@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/bwmarrin/discordgo"
-	"github.com/denverquane/amongusdiscord/locale"
+	"github.com/killerbad/MuteBot/locale"
 )
 
 const DefaultLeaderboardSize = 3

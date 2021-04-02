@@ -5,7 +5,7 @@ import (
 	"github.com/automuteus/utils/pkg/task"
 	"github.com/bsm/redislock"
 	"github.com/bwmarrin/discordgo"
-	"github.com/denverquane/amongusdiscord/storage"
+	"github.com/killerbad/MuteBot/storage"
 	"log"
 	"strconv"
 	"time"

@@ -2,7 +2,7 @@ package discord
 
 import (
 	"github.com/bwmarrin/discordgo"
-	"github.com/denverquane/amongusdiscord/amongus"
+	"github.com/killerbad/MuteBot/amongus"
 )
 
 // User struct

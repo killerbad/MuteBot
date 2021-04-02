@@ -14,10 +14,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/denverquane/amongusdiscord/locale"
-	"github.com/denverquane/amongusdiscord/storage"
+	"github.com/killerbad/MuteBot/locale"
+	"github.com/killerbad/MuteBot/storage"
 
-	"github.com/denverquane/amongusdiscord/discord"
+	"github.com/killerbad/MuteBot/discord"
 	"github.com/joho/godotenv"
 )
 

@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/automuteus/utils/pkg/game"
-	"github.com/denverquane/amongusdiscord/discord/setting"
+	"github.com/killerbad/MuteBot/discord/setting"
 
 	"github.com/bwmarrin/discordgo"
-	"github.com/denverquane/amongusdiscord/locale"
-	"github.com/denverquane/amongusdiscord/storage"
+	"github.com/killerbad/MuteBot/locale"
+	"github.com/killerbad/MuteBot/storage"
 	"github.com/nicksnyder/go-i18n/v2/i18n"
 
 	"log"

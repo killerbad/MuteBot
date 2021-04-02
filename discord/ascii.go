@@ -3,7 +3,7 @@ package discord
 import (
 	"fmt"
 
-	"github.com/denverquane/amongusdiscord/storage"
+	"github.com/killerbad/MuteBot/storage"
 	"github.com/nicksnyder/go-i18n/v2/i18n"
 )
 

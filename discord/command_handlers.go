@@ -4,15 +4,15 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/denverquane/amongusdiscord/metrics"
+	"github.com/killerbad/MuteBot/metrics"
 	"log"
 	"regexp"
 	"strconv"
 	"strings"
 
 	"github.com/bwmarrin/discordgo"
-	"github.com/denverquane/amongusdiscord/discord/command"
-	"github.com/denverquane/amongusdiscord/storage"
+	"github.com/killerbad/MuteBot/discord/command"
+	"github.com/killerbad/MuteBot/storage"
 	"github.com/nicksnyder/go-i18n/v2/i18n"
 )
 

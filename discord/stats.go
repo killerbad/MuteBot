@@ -8,7 +8,7 @@ import (
 	"github.com/automuteus/utils/pkg/premium"
 	"github.com/automuteus/utils/pkg/rediskey"
 	"github.com/bwmarrin/discordgo"
-	"github.com/denverquane/amongusdiscord/storage"
+	"github.com/killerbad/MuteBot/storage"
 	"github.com/nicksnyder/go-i18n/v2/i18n"
 	"log"
 	"strconv"
