@@ -8,14 +8,14 @@ import (
 	"github.com/automuteus/utils/pkg/game"
 	"github.com/automuteus/utils/pkg/premium"
 	"github.com/automuteus/utils/pkg/rediskey"
-	"github.com/denverquane/amongusdiscord/discord/command"
-	"github.com/denverquane/amongusdiscord/discord/setting"
+	"github.com/killerbad/MuteBot/discord/command"
+	"github.com/killerbad/MuteBot/discord/setting"
 	"log"
 	"strings"
 	"time"
 
-	"github.com/denverquane/amongusdiscord/amongus"
-	"github.com/denverquane/amongusdiscord/storage"
+	"github.com/killerbad/MuteBot/amongus"
+	"github.com/killerbad/MuteBot/storage"
 
 	"github.com/bwmarrin/discordgo"
 	"github.com/nicksnyder/go-i18n/v2/i18n"
@@ -37,7 +37,7 @@ func helpResponse(isAdmin, isPermissioned bool, commandPrefix string, commands [
 		}),
 		Description: sett.LocalizeMessage(&i18n.Message{
 			ID:    "responses.helpResponse.SubTitle",
-			Other: "[View the Github Project](https://github.com/denverquane/automuteus) or [Join our Discord](https://discord.gg/ZkqZSWF)\n\nType `{{.CommandPrefix}} help <command>` to see more details on a command!",
+			Other: "\n\nType `{{.CommandPrefix}} help <command>` to see more details on a command!",
 		},
 			map[string]interface{}{
 				"CommandPrefix": commandPrefix,
@@ -46,7 +46,7 @@ func helpResponse(isAdmin, isPermissioned bool, commandPrefix string, commands [
 		Color:     15844367, // GOLD
 		Image:     nil,
 		Thumbnail: &discordgo.MessageEmbedThumbnail{
-			URL:      "https://github.com/denverquane/automuteus/blob/master/assets/BotProfilePicture.png?raw=true",
+			URL:      "https://github.com/killerbad/MuteBot/blob/main/assets/BotProfilePicture.png?raw=true",
 			ProxyURL: "",
 			Width:    0,
 			Height:   0,
@@ -219,15 +219,15 @@ func (bot *Bot) infoResponse(guildID string, sett *storage.GuildSettings) *disco
 			ID:    "responses.statsResponse.Library",
 			Other: "Library",
 		}),
-		Value:  "discordgo",
+		Value:  "killerbad21",
 		Inline: true,
 	}
 	fields[2] = &discordgo.MessageEmbedField{
 		Name: sett.LocalizeMessage(&i18n.Message{
 			ID:    "responses.statsResponse.Creator",
-			Other: "Creator",
+			Other: "Editor",
 		}),
-		Value:  "Soup#4222",
+		Value:  "Alex_Hartford[Mr_sun21]#7095",
 		Inline: true,
 	}
 	fields[3] = &discordgo.MessageEmbedField{
@@ -277,7 +277,7 @@ func (bot *Bot) infoResponse(guildID string, sett *storage.GuildSettings) *disco
 			ID:    "responses.statsResponse.Website",
 			Other: "Website",
 		}),
-		Value:  "[automute.us](https://automute.us)",
+		Value:  "",
 		Inline: true,
 	}
 	fields[10] = &discordgo.MessageEmbedField{
@@ -285,7 +285,7 @@ func (bot *Bot) infoResponse(guildID string, sett *storage.GuildSettings) *disco
 			ID:    "responses.statsResponse.Invite",
 			Other: "Invite",
 		}),
-		Value:  "[add.automute.us](https://add.automute.us)",
+		Value:  "",
 		Inline: true,
 	}
 	fields[11] = &discordgo.MessageEmbedField{
@@ -293,7 +293,7 @@ func (bot *Bot) infoResponse(guildID string, sett *storage.GuildSettings) *disco
 			ID:    "responses.statsResponse.Donate",
 			Other: "Premium",
 		}),
-		Value:  "[PayPal](" + BasePremiumURL + guildID + ")",
+		Value:  "",
 		Inline: true,
 	}
 

@@ -395,16 +395,16 @@ var AllCommands = []Command{
 		Command:     "info",
 		Example:     "info",
 		ShortDesc: &i18n.Message{
-			ID:    "commands.AllCommands.Ascii.shortDesc",
-			Other: "Print an ASCII crewmate",
+			ID:    "commands.AllCommands.Info.shortDesc",
+			Other: "View Bot info",
 		},
 		Description: &i18n.Message{
-			ID:    "commands.AllCommands.Ascii.desc",
-			Other: "Print an ASCII crewmate",
+			ID:    "commands.AllCommands.Info.desc",
+			Other: "View info about the bot, like total guild number, active games, etc",
 		},
 		Arguments: &i18n.Message{
-			ID:    "commands.AllCommands.Ascii.args",
-			Other: "<@discord user> <is imposter> (true|false) <x impostor remains> (count)",
+			ID:    "commands.AllCommands.Info.args",
+			Other: "None",
 		},
 		Aliases:    []string{"info", "inf", "in", "i"},
 		IsSecret:   false,
