@@ -37,7 +37,7 @@ func helpResponse(isAdmin, isPermissioned bool, commandPrefix string, commands [
 		}),
 		Description: sett.LocalizeMessage(&i18n.Message{
 			ID:    "responses.helpResponse.SubTitle",
-			Other: "\n\nType `{{.CommandPrefix}} help <command>` to see more details on a command!",
+			Other: "Type `{{.CommandPrefix}} help <command>` to see more details on a command!",
 		},
 			map[string]interface{}{
 				"CommandPrefix": commandPrefix,

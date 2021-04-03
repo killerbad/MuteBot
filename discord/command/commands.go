@@ -396,11 +396,11 @@ var AllCommands = []Command{
 		Example:     "info",
 		ShortDesc: &i18n.Message{
 			ID:    "commands.AllCommands.Ascii.shortDesc",
-			Other: "Print an ASCII crewmate",
+			Other: "Test",
 		},
 		Description: &i18n.Message{
 			ID:    "commands.AllCommands.Ascii.desc",
-			Other: "Print an ASCII crewmate",
+			Other: "Test",
 		},
 		Arguments: &i18n.Message{
 			ID:    "commands.AllCommands.Ascii.args",
