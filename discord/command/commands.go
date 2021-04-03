@@ -395,15 +395,15 @@ var AllCommands = []Command{
 		Command:     "info",
 		Example:     "info",
 		ShortDesc: &i18n.Message{
-			ID:    "commands.AllCommands.Ascii.shortDesc",
-			Other: "Test",
+			ID:    "commands.AllCommands.Info.shortDesc",
+			Other: "Print an Info crewmate",
 		},
 		Description: &i18n.Message{
-			ID:    "commands.AllCommands.Ascii.desc",
-			Other: "Test",
+			ID:    "commands.AllCommands.Info.desc",
+			Other: "Print an Info crewmate",
 		},
 		Arguments: &i18n.Message{
-			ID:    "commands.AllCommands.Ascii.args",
+			ID:    "commands.AllCommands.Info.args",
 			Other: "<@discord user> <is imposter> (true|false) <x impostor remains> (count)",
 		},
 		Aliases:    []string{"info", "inf", "in", "i"},

@@ -108,7 +108,7 @@
 "responses.guildStatsEmbed.NoPremium" = "Detailed stats are only available for AutoMuteUs Premium users; type `{{.CommandPrefix}} premium` to learn more"
 "responses.guildStatsEmbed.Title" = "Guild Stats"
 "responses.guildStatsEmbed.TotalWinrate" = "Total Winrate ({{.Min}}+ Games)"
-"responses.helpResponse.SubTitle" = "[View the Github Project](https://github.com/denverquane/automuteus) or [Join our Discord](https://discord.gg/ZkqZSWF)\\n\\nType `{{.CommandPrefix}} help <command>` to see more details on a command!"
+"responses.helpResponse.SubTitle" = "Type `{{.CommandPrefix}} help <command>` to see more details on a command!"
 "responses.helpResponse.Title" = "AutoMuteUs Bot Commands:\\n"
 "responses.lobbyMessage.Footer.Text" = "React to this message with your in-game color! (or {{.emojiLeave}} to leave)"
 "responses.lobbyMessage.Title" = "Lobby"
