@@ -396,15 +396,15 @@ var AllCommands = []Command{
 		Example:     "info",
 		ShortDesc: &i18n.Message{
 			ID:    "commands.AllCommands.Info.shortDesc",
-			Other: "Print an Info crewmate",
+			Other: "View Bot info",
 		},
 		Description: &i18n.Message{
 			ID:    "commands.AllCommands.Info.desc",
-			Other: "Print an Info crewmate",
+			Other: "View info about the bot, like total guild number, active games, etc",
 		},
 		Arguments: &i18n.Message{
 			ID:    "commands.AllCommands.Info.args",
-			Other: "<@discord user> <is imposter> (true|false) <x impostor remains> (count)",
+			Other: "None",
 		},
 		Aliases:    []string{"info", "inf", "in", "i"},
 		IsSecret:   false,
